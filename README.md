@@ -1,28 +1,5 @@
 # sistema-de-cadastro
 
-//+-------------------+           +-------------------+
-//|      Usuario      |           |      Evento       |
-//+-------------------+           +-------------------+
-//| - Nome            |           | - Nome            |
-//| - Email           |           | - Endereco        |
-//| - Telefone        |           | - Categoria       |
-//| - EventosConfirm. |*--------->| - Horario         |
-//+-------------------+           | - Descricao       |
-//| + Confirmar()     |           | - Participantes   |
-//| + Cancelar()      |           +-------------------+
-//+-------------------+
-
-//+-------------------+
-//| GerenciadorEventos|
-//+-------------------+
-//| - ListaEventos    |
-//+-------------------+
-//| + CadastrarEvento()|
-//| + ListarEventos() |
-//| + SalvarEventos() |
-//| + CarregarEventos()|
-//+-------------------+
-
 
 using System;
 using System.Collections.Generic;
